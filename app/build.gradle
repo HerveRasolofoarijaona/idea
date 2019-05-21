@@ -2,7 +2,6 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 21
-    buildToolsVersion "27.0.3"
 
     defaultConfig {
         applicationId "lova.idea"
@@ -20,6 +19,5 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-
+    api fileTree(dir: 'libs', include: ['*.jar'])
 }
