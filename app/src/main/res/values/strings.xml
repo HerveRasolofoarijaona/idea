@@ -6,4 +6,5 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_index">index</string>
     <string name="title_activity_liste_projet">ListeProjet</string>
+    <string name="title_activity_liste_contact">liste_contact</string>
 </resources>

@@ -7,14 +7,7 @@ import android.view.MenuItem;
 import android.widget.ListView;
 
 
-public class ListeProjet extends Activity {
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_liste_projet);
-    }
-
+public class listProject extends Activity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -45,6 +38,5 @@ public class ListeProjet extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mListView = (ListView) findViewById(R.id.listView);
     }
 }
