@@ -7,4 +7,5 @@
     <string name="title_activity_index">index</string>
     <string name="title_activity_liste_projet">ListeProjet</string>
     <string name="title_activity_liste_contact">liste_contact</string>
+    <string name="desc">img</string>
 </resources>
