@@ -9,6 +9,93 @@
     android:padding="20dp"
     tools:context=".index">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/login"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:drawablePadding="6dp"
+            android:padding="4dp"
+            android:text="Bienvenue dans la version BETA 1"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/listeprojet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/shapelogin"
+        android:padding="15dp"
+        android:shadowColor="@android:color/transparent"
+        android:text="liste des projet" />
+
+    <Button
+        android:id="@+id/projet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/shapelogin"
+        android:padding="15dp"
+        android:shadowColor="@android:color/transparent"
+        android:text="projet" />
+    <Button
+        android:id="@+id/task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/shapelogin"
+        android:padding="15dp"
+        android:shadowColor="@android:color/transparent"
+        android:text="Tache" />
+
+    <Button
+        android:id="@+id/listetask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/shapelogin"
+        android:padding="15dp"
+        android:shadowColor="@android:color/transparent"
+        android:text="liste des taches" />
+    <Button
+        android:id="@+id/listcontact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/shapelogin"
+        android:padding="15dp"
+        android:shadowColor="@android:color/transparent"
+        android:text="liste des contacts" />
+
+
 
 
 </LinearLayout>
