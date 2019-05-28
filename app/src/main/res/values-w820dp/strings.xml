@@ -1,18 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">LoginApp</string>
-    <string name="title_activity_main">MainActivity</string>
-
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
-    <string name="title_activity_index">index</string>
-    <string name="title_activity_liste_projet">ListeProjet</string>
-    <string name="title_activity_liste_contact">liste_contact</string>
-    <string name="desc">img</string>
     <string name="details_par_taches">Details par Taches</string>
     <string name="ok">OK</string>
     <string name="veuillez_cliquer_sur_l_un_des_projets_et_puis_sur_d_tails_ou_taches">Veuillez cliquer sur l\'un des projets et puis sur détails ou taches</string>
     <string name="team">TEAM</string>
     <string name="details">Details</string>
+    <string name="todo">TODO</string>
     <string name="taches">Taches</string>
     <string name="id">Id:</string>
     <string name="description_de_la_taches_du_projet">Description de la taches du Projet</string>
@@ -24,13 +17,12 @@
     <string name="date_d_but_r_el">Date début réel:</string>
     <string name="date_fin_pr_vus">Date fin prévus:</string>
     <string name="ref_autorisation_provisoire">REF Autorisation provisoire :</string>
-    <string name="ref_contrat_cons_ssion">REF Contrat conséssion:</string>
+    <string name="ref_contrat_cons_ssion">REF Contrat conséssion:</string>>
     <string name="ref_pta">REF PTA:</string>
     <string name="localit">Localité:</string>
     <string name="nom_du_projet">Nom du Projet :</string>
     <string name="tache">Tache</string>
     <string name="date">Date</string>
-    <string name="budget_estimatif">Budget Estimatif :</string>
     <string name="nom_du_bailleur">Nom du Bailleur :</string>
     <string name="technologie">Technologie :</string>
     <string name="information_sur_le_projet">Information sur le projet</string>

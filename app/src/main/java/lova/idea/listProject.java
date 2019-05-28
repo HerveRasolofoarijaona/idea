@@ -1,10 +1,12 @@
 package lova.idea;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 
 
@@ -34,12 +36,30 @@ public class listProject extends Activity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                System.out.println("tu as cliqué sur le " + i + "eme item");
-                String itemValue = (String) listView.getItemAtPosition(i);
-                System.out.println("Valeur de l'item : " + itemValue);
+
             }
         });
 
+        Button detail_projet = findViewById(R.id.id_detail_projet);
+        Button detail_tache = findViewById(R.id.id_list_tache);
+
+        detail_projet.setOnClickListener(new View.OnClickListener()
+        {
+            public void onClick(View actuelView)    //au clic sur le bouton
+            {
+                Intent intent = new Intent(listProject.this, projet.class);  //Lancer l'activité index
+                startActivity(intent);
+            }
+        });
+
+        detail_tache.setOnClickListener(new View.OnClickListener()
+        {
+            public void onClick(View actuelView)    //au clic sur le bouton
+            {
+                Intent intent = new Intent(listProject.this, listeTache.class);  //Lancer l'activité index
+                startActivity(intent);
+            }
+        });
     }
 
 }

@@ -1,34 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="lova.idea">
+    package="lova.idea"
+    >
 
     <application
         android:allowBackup="true"
+        android:fullBackupContent="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="LoginApps"
         android:theme="@style/AppTheme">
-        <activity android:name=".projet"/>
-        <activity android:name=".listContact" />
-        <activity android:name=".date_project" />
-        <activity android:name=".task" />
-        <activity android:name=".listeTache" />
-        <activity
-            android:name=".MainActivity"
-            android:label="@string/title_activity_main">
+
+        <activity android:name=".MainActivity"  android:label="Login Apps">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".index" android:label="Bienvenue !!!">
             <intent-filter>
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".index"
-            android:label="@string/title_activity_index">
-            <intent-filter>
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".listProject"
-            android:label="@string/title_activity_liste_projet" />
+
+        <activity android:name=".task"          android:label="Taches Info " />
+        <activity android:name=".listeTache"    android:label="Liste des taches "/>
+        <activity android:name=".projet"        android:label="Projet "/>
+        <activity android:name=".listContact"   android:label="Liste des contacts "/>
+        <activity android:name=".date_project"  android:label="Date Phare"/>
+        <activity android:name=".listProject"   android:label="Liste des Projets" />
+
     </application>
 
 </manifest>

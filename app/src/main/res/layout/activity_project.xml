@@ -11,12 +11,60 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="67dp"
         android:orientation="horizontal">
-        <ImageView
-            android:layout_width="90dp"
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/todo"
+                android:src="@mipmap/login" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:drawablePadding="6dp"
+                android:fontFamily="monospace"
+                android:padding="4dp"
+                android:text="@string/information_sur_le_projet"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:typeface="monospace" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:src="@mipmap/login"/>
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:drawablePadding="6dp"
+            android:fontFamily="monospace"
+            android:padding="4dp"
+            android:text="@string/blank"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
         <TextView
             android:layout_width="match_parent"
@@ -26,183 +74,228 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="10dp"
             android:drawablePadding="6dp"
+            android:fontFamily="monospace"
             android:padding="4dp"
-            android:text="Information sur le projet"
+            android:text="@string/date_de_sortie"
             android:textColor="@color/white"
-            android:textSize="24sp" />
-    </LinearLayout>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Nom du Projet : "
-        android:layout_marginRight="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginBottom="10dp"
-        android:layout_marginTop="0dp"
-        android:textColor="@color/white"
-        android:drawablePadding="6dp"
-        android:padding="4dp"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Localité:"
-        android:layout_marginRight="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginBottom="10dp"
-        android:layout_marginTop="0dp"
-        android:textColor="@color/white"
-        android:drawablePadding="6dp"
-        android:padding="4dp"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Technologie :"
-        android:layout_marginRight="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginBottom="10dp"
-        android:layout_marginTop="0dp"
-        android:textColor="@color/white"
-        android:drawablePadding="6dp"
-        android:padding="4dp"/>
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="REF PTA:"
-        android:layout_marginRight="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginBottom="10dp"
-        android:layout_marginTop="0dp"
-        android:textColor="@color/white"
-        android:drawablePadding="6dp"
-        android:padding="4dp"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Budget Estimatif : "
-        android:layout_marginRight="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginBottom="10dp"
-        android:layout_marginTop="0dp"
-        android:textColor="@color/white"
-        android:drawablePadding="6dp"
-        android:padding="4dp"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="REF Contrat conséssion:"
-        android:layout_marginRight="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginBottom="10dp"
-        android:layout_marginTop="0dp"
-        android:textColor="@color/white"
-        android:drawablePadding="6dp"
-        android:padding="4dp"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text=" Date de sortie :"
-        android:layout_marginRight="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginBottom="10dp"
-        android:layout_marginTop="0dp"
-        android:textColor="@color/white"
-        android:drawablePadding="6dp"
-        android:padding="4dp"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="REF Autorisation provisoire :"
-        android:layout_marginRight="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginBottom="10dp"
-        android:layout_marginTop="0dp"
-        android:textColor="@color/white"
-        android:drawablePadding="6dp"
-        android:padding="4dp"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text=" Date de sortie :"
-        android:layout_marginRight="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginBottom="10dp"
-        android:layout_marginTop="0dp"
-        android:textColor="@color/white"
-        android:drawablePadding="6dp"
-        android:padding="4dp"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Nom du Bailleur :"
-        android:layout_marginRight="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginBottom="10dp"
-        android:layout_marginTop="0dp"
-        android:textColor="@color/white"
-        android:drawablePadding="6dp"
-        android:padding="4dp"/>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <Button
-            android:layout_width="109dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="0dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginBottom="10dp"
-            android:background="@drawable/shapesignup"
-            android:padding="15dp"
-            android:shadowColor="@android:color/transparent"
-            android:text="Tache"
-            android:textColor="@color/white" />
-
-        <Button
-            android:layout_width="99dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="0dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginBottom="10dp"
-            android:background="@drawable/shapesignup"
-            android:padding="15dp"
-            android:shadowColor="@android:color/transparent"
-            android:text="Date"
-            android:textColor="@color/white" />
-        <Button
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TEAM"
-            android:shadowColor="@android:color/transparent"
-            android:padding="15dp"
-            android:layout_marginRight="10dp"
             android:layout_marginLeft="10dp"
-            android:layout_marginBottom="10dp"
             android:layout_marginTop="0dp"
-            android:background="@drawable/shapesignup"
-            android:textColor="@color/white"/>
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:drawablePadding="6dp"
+            android:fontFamily="monospace"
+            android:padding="4dp"
+            android:text="@string/ref_contrat_cons_ssion"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:drawablePadding="6dp"
+            android:fontFamily="monospace"
+            android:padding="4dp"
+            android:text="@string/ref_autorisation_provisoire"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:drawablePadding="6dp"
+            android:fontFamily="monospace"
+            android:padding="4dp"
+            android:text="@string/ref_pta"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:drawablePadding="6dp"
+            android:fontFamily="monospace"
+            android:padding="4dp"
+            android:text="@string/localit"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:drawablePadding="6dp"
+            android:fontFamily="monospace"
+            android:padding="4dp"
+            android:text="@string/nom_du_projet"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:drawablePadding="6dp"
+            android:fontFamily="monospace"
+            android:padding="4dp"
+            android:text="@string/budget_estimatif"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:drawablePadding="6dp"
+            android:fontFamily="monospace"
+            android:padding="4dp"
+            android:text="@string/nom_du_bailleur"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:drawablePadding="6dp"
+            android:fontFamily="monospace"
+            android:padding="4dp"
+            android:text="@string/technologie"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:drawablePadding="6dp"
+            android:fontFamily="monospace"
+            android:padding="4dp"
+            android:text="@string/date_de_sortie"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
     </LinearLayout>
 
-
-    <Button
-        android:layout_width="match_parent"
+    <LinearLayout
+        android:layout_width="337dp"
         android:layout_height="wrap_content"
-        android:text="Ok"
-        android:shadowColor="@android:color/transparent"
-        android:padding="15dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginBottom="10dp"
-        android:layout_marginTop="0dp"
-        android:background="@drawable/shapesignup"
-        android:textColor="@color/white"/>
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="327dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/id_tache"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12sp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/shapesignup"
+                android:padding="15dp"
+                android:shadowColor="@android:color/transparent"
+                android:text="@string/tache"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/id_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/shapesignup"
+                android:padding="15dp"
+                android:shadowColor="@android:color/transparent"
+                android:text="@string/date"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/id_team"
+                android:layout_width="107dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/shapesignup"
+                android:padding="15dp"
+                android:shadowColor="@android:color/transparent"
+                android:text="@string/team"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/id_index"
+            android:layout_width="317dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/shapesignup"
+            android:padding="15dp"
+            android:shadowColor="@android:color/transparent"
+            android:text="@string/ok"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+    </LinearLayout>
+
 </LinearLayout>

@@ -4,10 +4,10 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
-    <!-- <style name="frag1TableLayout">
+    <style name="frag1TableLayout">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-    </style> -->
+    </style>
     <style name="frag1HeaderTableRow" parent="frag1TableLayout">
         <item name="android:layout_marginBottom">3dp</item>
     </style>

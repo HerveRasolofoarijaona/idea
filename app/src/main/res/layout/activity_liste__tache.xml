@@ -17,7 +17,8 @@
         <ImageView
             android:layout_width="90dp"
             android:layout_height="wrap_content"
-            android:src="@mipmap/login"/>
+            android:src="@mipmap/login"
+            android:contentDescription="TODO" />
 
         <TextView
             android:layout_width="match_parent"
@@ -27,42 +28,48 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="10dp"
             android:drawablePadding="6dp"
+            android:fontFamily="monospace"
             android:padding="4dp"
-            android:text="Liste des taches du Projet"
+            android:text="Liste des taches du projet par ordre d'importance (en cours -Prévus -Terminée)"
             android:textColor="@color/white"
-            android:textSize="24sp" />
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
     </LinearLayout>
 
 
     <ListView
         android:id="@+id/listView"
         android:layout_width="wrap_content"
-        android:layout_height="356dp" />
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="0dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginBottom="10dp"
-        android:background="@drawable/shapesignup"
-        android:padding="15dp"
-        android:shadowColor="@android:color/transparent"
-        android:text="Details par Taches"
-        android:textColor="@color/white" />
+        android:layout_height="318dp" />
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
+        android:id="@+id/detail_tache"
+        android:layout_width="303dp"
+        android:layout_height="34dp"
         android:layout_marginTop="0dp"
-        android:layout_marginRight="10dp"
         android:layout_marginBottom="10dp"
         android:background="@drawable/shapesignup"
-        android:padding="15dp"
+        android:fontFamily="monospace"
         android:shadowColor="@android:color/transparent"
-        android:text="OK"
-        android:textColor="@color/white" />
+        android:text="@string/details_par_taches"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:typeface="monospace" />
+
+    <Button
+        android:id="@+id/id_ok"
+        android:layout_width="303dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/shapesignup"
+        android:fontFamily="monospace"
+        android:shadowColor="@android:color/transparent"
+        android:text="@string/ok"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:typeface="monospace" />
 
 
 

@@ -52,19 +52,12 @@
                     style="@style/frag1HeaderCol"
                     android:layout_width="57dp"
                     android:layout_height="match_parent"
-                    android:gravity="center"
-                    android:text="Credit" />
-
-                <TextView
-                    style="@style/frag1HeaderCol"
-                    android:layout_width="85dp"
-                    android:layout_height="match_parent"
-                    android:text="Debit" />
+                    android:text="@string/credit" />
 
                 <TextView
                     style="@style/frag1HeaderCol"
                     android:layout_width="81dp"
-                    android:text="Debit" />
+                    android:text="@string/debit" />
             </TableRow>
 
             <TableRow style="@style/frag1TableRow">
